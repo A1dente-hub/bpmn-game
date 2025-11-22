@@ -6,7 +6,7 @@ const resultDiv = document.getElementById('result');
 let score = 0;
 
 // Правильная последовательность BPMN
-const correctSequence = ['start', 'task', 'gateway', 'task', 'end'];
+const correctSequence = ['start', 'task1', 'gateway', 'task2', 'end'];
 
 // === УНИВЕРСАЛЬНАЯ СИСТЕМА ДОБАВЛЕНИЯ ЭЛЕМЕНТОВ ===
 function initGame() {
@@ -142,3 +142,4 @@ function showResult(message, type) {
 
 // Запускаем игру при загрузке
 document.addEventListener('DOMContentLoaded', initGame);
+
